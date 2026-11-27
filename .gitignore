@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+*.log
+
+# Backend (Laravel)
+backend/vendor/
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/.phpunit.result.cache
+
+# Python / AI Engine
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
